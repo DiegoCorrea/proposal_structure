@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install git unzip zip htop curl -y
+curl -O https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+bash Anaconda3-2021.05-Linux-x86_64.sh -yes
+source ~.bashrc
